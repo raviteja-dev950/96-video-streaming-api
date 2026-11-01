@@ -1,28 +1,28 @@
 # 🚀 Project 96 – Video Streaming API | System Design Level | Full Stack DevOps
 
-[Java 17](https://img.shields.io/badge/Java-17-E76F00?logo=openjdk&logoColor=white)
-[Spring Boot 3.2.5](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?logo=springboot&logoColor=white)
-[Caching](https://img.shields.io/badge/Caching-Caffeine%201000%20max%20600s%20expire%20Stats-blue?logo=redis&logoColor=white)
-[Cache Stats](https://img.shields.io/badge/Cache%20Stats-recordStats%20enabled-brightgreen)
-[Security](https://img.shields.io/badge/Security-Headers%20nosniff%20DENY%20XSS-red?logo=springsecurity&logoColor=white)
-[Builder Pattern](https://img.shields.io/badge/Builder%20Pattern-Video.Builder%20Fluent%20API-success?logo=java&logoColor=white)
-[Strategy Pattern](https://img.shields.io/badge/Strategy%20Pattern-Range%20206%20vs%20Full-yellow?logo=youtube&logoColor=white)
-[Repository Pattern](https://img.shields.io/badge/Repository%20Pattern-JpaRepository-6DB33F)
-[H2 Database](https://img.shields.io/badge/H2-Database%20videodb-003545?logo=h2&logoColor=white)
-[viewCount](https://img.shields.io/badge/viewCount-Added%20%2B%20idx__title-orange)
-[JUnit 5](https://img.shields.io/badge/JUnit-5%206%2F6%20Green-25A162?logo=junit5&logoColor=white)
-[Mockito](https://img.shields.io/badge/Mockito-Mocked%20Repo%20when%2Fverify-00BFFF)
-[Range 206](https://img.shields.io/badge/Range-206%20Partial%20Content%20%2B%20Content--Range-blueviolet?logo=http&logoColor=white)
-[Docker](https://img.shields.io/badge/Docker-Multi--Stage-2496ED?logo=docker&logoColor=white)
-[Render](https://img.shields.io/badge/Render-Live%202m32s-brightgreen?logo=render&logoColor=white)
-[Tomcat](https://img.shields.io/badge/Apache%20Tomcat-10.1.20-D4AF00?logo=apachetomcat&logoColor=white)
-[Port](https://img.shields.io/badge/Port-8098-00BFFF)
-[Status](https://img.shields.io/badge/Status-Video%20Streaming%20Live%20Tier%2010-brightgreen)
-[Tier 10](https://img.shields.io/badge/Tier%2010-System%20Design%20Level%20SCALE-blueviolet)
+![Java 17](https://img.shields.io/badge/Java-17-E76F00?logo=openjdk&logoColor=white)
+![Spring Boot 3.2.5](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?logo=springboot&logoColor=white)
+![Caching](https://img.shields.io/badge/Caching-Caffeine%201000%20max%20600s%20expire%20Stats-blue?logo=redis&logoColor=white)
+![Cache Stats](https://img.shields.io/badge/Cache%20Stats-recordStats%20enabled-brightgreen)
+![Security](https://img.shields.io/badge/Security-Headers%20nosniff%20DENY%20XSS-red?logo=springsecurity&logoColor=white)
+![Builder Pattern](https://img.shields.io/badge/Builder%20Pattern-Video.Builder%20Fluent%20API-success?logo=java&logoColor=white)
+![Strategy Pattern](https://img.shields.io/badge/Strategy%20Pattern-Range%20206%20vs%20Full-yellow?logo=youtube&logoColor=white)
+![Repository Pattern](https://img.shields.io/badge/Repository%20Pattern-JpaRepository-6DB33F)
+![H2 Database](https://img.shields.io/badge/H2-Database%20videodb-003545?logo=h2&logoColor=white)
+![viewCount](https://img.shields.io/badge/viewCount-Added%20%2B%20idx__title-orange)
+![JUnit 5](https://img.shields.io/badge/JUnit-5%206%2F6%20Green-25A162?logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-Mocked%20Repo%20when%2Fverify-00BFFF)
+![Range 206](https://img.shields.io/badge/Range-206%20Partial%20Content%20%2B%20Content--Range-blueviolet?logo=http&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Multi--Stage-2496ED?logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-Live%202m32s-brightgreen?logo=render&logoColor=white)
+![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-10.1.20-D4AF00?logo=apachetomcat&logoColor=white)
+![Port](https://img.shields.io/badge/Port-8098-00BFFF)
+![Status](https://img.shields.io/badge/Status-Video%20Streaming%20Live%20Tier%2010-brightgreen)
+![Tier 10](https://img.shields.io/badge/Tier%2010-System%20Design%20Level%20SCALE-blueviolet)
 
 **Live URL:** https://nine6-video-streaming-api.onrender.com/
 
-[[Live](https://img.shields.io/badge/Live-Render-brightgreen?style=for-the-badge&logo=render)](https://nine6-video-streaming-api.onrender.com)
+[![Live](https://img.shields.io/badge/Live-Render-brightgreen?style=for-the-badge&logo=render)](https://nine6-video-streaming-api.onrender.com)
 
 Project 96 - Part of Java 102 Projects Challenge - System Design Level Tier 10 SCALE
 ---
@@ -170,52 +170,52 @@ This is Project 96 of Tier 10 - SCALE - After Chat App WebSockets (95), now real
 # 📸 Screenshots - 10 Demos - Video Streaming API Verified - Live Tier 10
 
 ### Demo 1 – Browser - GET / - Home Live JSON - Video Streaming API Tier 10 SCALE
-[Demo1 Home](screenshots/demo1.png)
+![Demo1 Home](screenshots/demo1.png)
 
 *GET http://localhost:8098/ - Browser - 200 OK - Returns {"owner":"Raviteja","security":"X-Content-Type-Options nosniff, X-Frame-Options DENY, XSS Protection","designPatterns":["Builder Pattern - Video.Builder","Strategy Pattern - Range vs Full Streaming","Repository Pattern","Caching Pattern"],"tier":"10 - System Design Level - Caching + Security + Testing + Design Patterns","port":"8098","testing":"JUnit 5 + Mockito - 6 tests - Builder + Service + Controller Mock","project":"96-video-streaming-api","caching":"Caffeine Cache - videos cache - 1000 max, 600s expire - Redis ready","live":"https://nine6-video-streaming-api.onrender.com","status":"Live - Video Streaming API - Tier 10 Scale"} - Proof of Home Live - Portfolio ready - Tier 10 SCALE 96/102 - 94% - Caching + Security + Design Patterns + Testing - Same as 95 but 96 Video Streaming*
 
 ### Demo 2 – Browser - GET /health - UP - Caching + Security + Streaming Active
-[Demo2 Health](screenshots/demo2.png)
+![Demo2 Health](screenshots/demo2.png)
 
 *GET http://localhost:8098/health - Browser - 200 OK - Returns {"streaming":"Active - Range Requests 206 Partial Content - Strategy Pattern","cache":"Active - Caffeine - videos, video - Stats enabled","security":"Headers Active","project":"96-video-streaming-api","githubGoal":"CONTRIBUTING.md + Issues + Release Tags + Badges + Live Link + Architecture Diagram - Tier 10 Goal","status":"UP"} - Proof of Health Endpoint - Tier 10 Health Check - Caching Active Caffeine Stats enabled - Security Headers Active - Streaming Active Range Requests 206 Strategy Pattern - GitHub Goal CONTRIBUTING.md Issues Release Tags - Same as Project 95 health but with cache + security + streaming*
 
 ### Demo 3 – Browser - GET /api/videos - Empty List - Before Upload - Caching Ready
-[Demo3 Empty List](screenshots/demo3.png)
+![Demo3 Empty List](screenshots/demo3.png)
 
 *GET http://localhost:8098/api/videos - Browser - 200 OK - Returns [] - Empty JSON array - Proof of List Endpoint Working - No videos yet - H2 in-memory empty - Caching videos cache ready - X-Cache: Caffeine - videos header ready - Real video app starts empty like YouTube before upload*
 
 ### Demo 4 – Postman - POST /api/videos/upload - 200 OK - id 1 - Builder Pattern + Cache Evicted
-[Demo4 Upload Builder](screenshots/demo4.png)
+![Demo4 Upload Builder](screenshots/demo4.png)
 
 *POST http://localhost:8098/api/videos/upload - Body form-data title Test Video file Screen Recording 2026-08-22 173431.mp4 (71MB) - Postman - 200 OK Time 2.43s Size 656B - Returns {"streamUrl":"http://localhost:8098/api/videos/1/stream","fileName":"Screen Recording 2026-08-22 173431.mp4","cache":"videos cache evicted","fileSize":71909571,"uploadedAt":"2026-11-01T15:10:34.557725","id":1,"title":"Test Video","message":"Uploaded - Range Ready - Cache Evicted - Builder Pattern","contentType":"video/mp4"} - Proof of Upload Endpoint Working - Builder Pattern Video.Builder title fileName contentType fileSize filePath uploadedAt build Fluent API - CacheEvict allEntries true - videos cache evicted - File saved to uploads/ + filePath uploads\1793526034325_Screen Recording - 71MB - Live on Render URL pattern - Same as 95 but Builder Pattern*
 
 ### Demo 5 – Browser - GET /api/videos - With Video - viewCount + X-Cache
-[Demo5 List viewCount](screenshots/demo5.png)
+![Demo5 List viewCount](screenshots/demo5.png)
 
 *GET http://localhost:8098/api/videos - Browser - 200 OK Time 2.03s Size 656B - Returns [{"id":1,"title":"Test Video","fileName":"Screen Recording 2026-08-22 173431.mp4","contentType":"video/mp4","fileSize":71909571,"filePath":"uploads\\1793526034325_Screen Recording 2026-08-22 173431.mp4","uploadedAt":"2026-11-01T15:10:34.557725","viewCount":0}] - Proof of List Persistence - Video saved in H2 - viewCount 0 + uploadedAt + filePath + idx_title index + findAllByOrderByUploadedAtDesc working - Caching videos cache - X-Cache: Caffeine header + Cache-Control public max-age=3600 - Same as 95 history after but with viewCount + filePath*
 
 ### Demo 6 – Postman - GET /api/videos/1/stream - Range Header - Strategy Pattern Request
-[Demo6 Stream Request](screenshots/demo6.png)
+![Demo6 Stream Request](screenshots/demo6.png)
 
 *GET http://localhost:8098/api/videos/1/stream - Headers Tab Key Range Value bytes=0-1023 + 8 hidden headers - Postman - Preparing for 206 Partial Content - Strategy Pattern Range-Strategy-206 request - Range: bytes=0-1023 - Postman Headers (9) tab - Proof of Range Request Setup - System Design core - YouTube/Netflix streaming - Real streaming starts with Range header*
 
 ### Demo 7 – Postman - GET /api/videos/1/stream - 206 Partial Content - Strategy Pattern Response - Tier 10 Core
-[Demo7 Stream 206](screenshots/demo7.png)
+![Demo7 Stream 206](screenshots/demo7.png)
 
 *GET http://localhost:8098/api/videos/1/stream - Headers Range bytes=0-1023 Content-Range bytes 0-1023/71909571 Accept-Ranges bytes + X-Streaming-Strategy: Range-Strategy-206 X-Streaming-Strategy Range-Strategy-206 - Postman - Status 206 Partial Content Time 2.47s Size 1.45KB - Body video player black screen 0:00 - Proof of Stream Endpoint Working - Strategy Pattern Range-Strategy-206 vs Full-Strategy-200 - 206 Partial Content + Content-Range: bytes start-end/fileSize + Accept-Ranges: bytes + X-Streaming-Strategy header - Real YouTube/Netflix streaming chunk 1.45KB from 71MB file - Core Tier 10 Feature - System Design Interview Ready - Same as 95 WebSocket but for video streaming*
 
 ### Demo 8 – Eclipse Console - JUnit Console Logs - Builder + Mockito + Search
-[Demo8 JUnit Console](screenshots/demo8.png)
+![Demo8 JUnit Console](screenshots/demo8.png)
 
 *Eclipse Console - <terminated> VideoServiceTest [JUnit] - WARNING A Java agent has been loaded dynamically C:\Users\Ravi Teja\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar - WARNING If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning - WARNING If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information - WARNING Dynamic loading of agents will be disallowed by default in a future release - OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended - Mockito Test Passed: getAllVideos - Mocked 2 videos - Caching: videos + Builder Pattern Test Passed: Builder Video - builder.mp4 + Video Entity Test Passed: Test Video - test.mp4 - 1024 bytes + Format Video Test Passed: [2026-11-01T15:15:46.640945500] Test Video - test.mp4 (1024 bytes) Views:0 + Search Test Passed: Found 1 video for keyword Test - Caching + Search + Mockito Test Passed: getVideoById - Mocked Repo - Found: Test Video - Proof of Test Output - Builder Pattern + Mockito Mock Repo + when().thenReturn() + verify() + Caching + Search - Console logs same as Project 95 ChatServiceTest but 6 tests - Tier 10 SCALE*
 
 ### Demo 9 – Eclipse JUnit - Green Bar - 6/6 Tests Passed - VideoServiceTest - Tier 10 Testing PASS
-[Demo9 JUnit Green](screenshots/demo9.png)
+![Demo9 JUnit Green](screenshots/demo9.png)
 
 *Eclipse JUnit - Finished after 3.543 seconds - Runs: 6/6 Errors: 0 Failures: 0 Green Bar - VideoServiceTest [Runner: JUnit 5] (3.148 s) - Failure Trace empty - Proof of Tier 10 Testing Goal - JUnit + Mockito - Was 2/2 Tier 5 -> Now 6/6 Tier 10 - Builder Pattern + Entity + Format + Mockito Mock Repo getById + getAll + Search - Same as Project 95 Green Bar but 6/6 not 2/2 - Tier 10 SCALE*
 
 ### Demo 10 – Browser - GET /api/videos - Raw JSON - viewCount + Full List
-[Demo10 Raw JSON](screenshots/demo10.png)
+![Demo10 Raw JSON](screenshots/demo10.png)
 
 *Browser - GET http://localhost:8098/api/videos - 200 OK - Raw JSON [{"id":1,"title":"Test Video","fileName":"Screen Recording 2026-08-22 173431.mp4","contentType":"video/mp4","fileSize":71909571,"filePath":"uploads\\1793526034325_Screen Recording 2026-08-22 173431.mp4","uploadedAt":"2026-11-01T15:10:34.557725","viewCount":0}] - Proof of Raw List - viewCount + uploadedAt + filePath + fileSize + contentType + title + id - H2 videodb + view_count + idx_title - Full JSON without pretty print - Same as 95 history after but with filePath + viewCount*
 
